@@ -58,4 +58,4 @@ function Navbar({ setIsLoggedIn }) {
   );
 }
 
-export default Navbar;
+export default Navbar

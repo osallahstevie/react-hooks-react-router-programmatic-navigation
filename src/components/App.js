@@ -4,10 +4,8 @@ import Home from "./Home";
 import About from "./About";
 import Login from "./Login";
 import Navbar from "./Navbar";
-
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-
   return (
     <div>
       <Navbar setIsLoggedIn={setIsLoggedIn} />
@@ -25,5 +23,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
